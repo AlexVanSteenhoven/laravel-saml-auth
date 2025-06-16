@@ -3,8 +3,8 @@
 namespace ModusDigital\LaravelSamlAuth\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use ModusDigital\LaravelSamlAuth\LaravelSamlAuthServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

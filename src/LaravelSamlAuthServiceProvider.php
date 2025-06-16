@@ -2,9 +2,9 @@
 
 namespace ModusDigital\LaravelSamlAuth;
 
+use ModusDigital\LaravelSamlAuth\Commands\GenerateSamlConfiguration;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ModusDigital\LaravelSamlAuth\Commands\GenerateSamlConfiguration;
 
 class LaravelSamlAuthServiceProvider extends PackageServiceProvider
 {
